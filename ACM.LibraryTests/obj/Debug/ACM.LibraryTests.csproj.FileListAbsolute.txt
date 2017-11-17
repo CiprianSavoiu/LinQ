@@ -1,0 +1,14 @@
+C:\#Courses\Pluralsight\c#\04LINQ\MyWork\LinQ\ACM.LibraryTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\#Courses\Pluralsight\c#\04LINQ\MyWork\LinQ\ACM.LibraryTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\#Courses\Pluralsight\c#\04LINQ\MyWork\LinQ\ACM.LibraryTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\#Courses\Pluralsight\c#\04LINQ\MyWork\LinQ\ACM.LibraryTests\bin\Debug\ACM.LibraryTests.dll
+C:\#Courses\Pluralsight\c#\04LINQ\MyWork\LinQ\ACM.LibraryTests\bin\Debug\ACM.LibraryTests.pdb
+C:\#Courses\Pluralsight\c#\04LINQ\MyWork\LinQ\ACM.LibraryTests\bin\Debug\ACM.Library.dll
+C:\#Courses\Pluralsight\c#\04LINQ\MyWork\LinQ\ACM.LibraryTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\#Courses\Pluralsight\c#\04LINQ\MyWork\LinQ\ACM.LibraryTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\#Courses\Pluralsight\c#\04LINQ\MyWork\LinQ\ACM.LibraryTests\bin\Debug\ACM.Library.pdb
+C:\#Courses\Pluralsight\c#\04LINQ\MyWork\LinQ\ACM.LibraryTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\#Courses\Pluralsight\c#\04LINQ\MyWork\LinQ\ACM.LibraryTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\#Courses\Pluralsight\c#\04LINQ\MyWork\LinQ\ACM.LibraryTests\obj\Debug\ACM.LibraryTests.csprojResolveAssemblyReference.cache
+C:\#Courses\Pluralsight\c#\04LINQ\MyWork\LinQ\ACM.LibraryTests\obj\Debug\ACM.LibraryTests.dll
+C:\#Courses\Pluralsight\c#\04LINQ\MyWork\LinQ\ACM.LibraryTests\obj\Debug\ACM.LibraryTests.pdb
