@@ -105,5 +105,35 @@ namespace ACM.BL.Tests
             //Assert
             Assert.IsNotNull(query);
         }
+
+        [TestMethod]
+        public void GetNamesAndEmailTest()
+        {
+            //Arrange
+            CustomerRepository customerRepository = new CustomerRepository();
+            var customerList = customerRepository.Retrieve();
+            //Act 
+            var query = customerRepository.GetNamesAndEmail(customerList);
+            //Analyze
+           
+        }
+
+
+        [TestMethod]
+        public void GetNamesAndTypeTest()
+        {
+            //Arrange
+            CustomerRepository customerRepository = new CustomerRepository();
+            var customerList = customerRepository.Retrieve();
+
+            CustomerTypeRepository typerRepository = new CustomerTypeRepository();
+            var customerTypeList = typerRepository.Retrieve();
+            //Act 
+            var query = customerRepository.GetNamesAndType(customerList, customerTypeList);
+            
+            
+            //NOT REALLY A TEST
+
+        }
     }
 }

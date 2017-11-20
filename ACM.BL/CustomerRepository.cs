@@ -38,6 +38,42 @@ namespace ACM.BL
             return query;
         }
 
+        //dynamic not recommended to use as a return from a function
+        public dynamic GetNamesAndEmail(List<Customer> customerList)
+        {
+            var query = customerList.Select(c => new
+            {
+                Name = c.LastName + " , " + c.FirstName,
+                Email = c.EmailAddress
+            });
+
+            foreach (var item in query)
+            {
+                Console.WriteLine(item.Name + ":" + item.Email);
+            }
+            return query;
+        }
+
+        public dynamic GetNamesAndType(List<Customer> customerList,
+                                        List<CustomerType> customerTypeList)
+        {
+            var query = customerList.Join(customerTypeList,
+                c => c.CustomerTypeId,
+                ct => ct.CustomerTypeId,
+                (c, ct) => new
+                {
+                    Name = c.LastName + ", " + c.FirstName,
+                    CustomerType = ct.TypeName
+                });
+
+            foreach (var item in query)
+            {
+                Console.WriteLine(item.Name + " : " + item.CustomerType);
+            }
+
+            return query;
+        }
+
 
 
         public List<Customer> Retrieve()
