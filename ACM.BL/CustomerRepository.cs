@@ -32,6 +32,13 @@ namespace ACM.BL
             return foundCustomer;
         }
 
+        public IEnumerable<string> GetNames(List<Customer> customerList)
+        {
+            var query = customerList.Select(c => c.LastName + "," + c.FirstName);
+            return query;
+        }
+
+
 
         public List<Customer> Retrieve()
         {

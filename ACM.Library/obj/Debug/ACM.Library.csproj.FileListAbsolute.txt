@@ -2,3 +2,4 @@ C:\#Courses\Pluralsight\c#\04LINQ\MyWork\LinQ\ACM.Library\bin\Debug\ACM.Library.
 C:\#Courses\Pluralsight\c#\04LINQ\MyWork\LinQ\ACM.Library\bin\Debug\ACM.Library.pdb
 C:\#Courses\Pluralsight\c#\04LINQ\MyWork\LinQ\ACM.Library\obj\Debug\ACM.Library.dll
 C:\#Courses\Pluralsight\c#\04LINQ\MyWork\LinQ\ACM.Library\obj\Debug\ACM.Library.pdb
+C:\#Courses\Pluralsight\c#\04LINQ\MyWork\LinQ\ACM.Library\obj\Debug\ACM.Library.csprojResolveAssemblyReference.cache
