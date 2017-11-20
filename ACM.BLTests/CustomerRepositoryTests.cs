@@ -28,5 +28,64 @@ namespace ACM.BL.Tests
             Assert.AreEqual("Baggins", result.LastName);
             Assert.AreEqual("Bilbo", result.FirstName);
         }
+
+        [TestMethod()]
+        public void FindTestNotFound()
+        {
+            //Arrange
+            CustomerRepository customerRepository = new CustomerRepository();
+            var customerList = customerRepository.Retrieve();
+
+            //Act 
+            var result = customerRepository.Find(customerList, 42);
+            
+            //Assert
+            Assert.IsNull(result);
+
+        }
+
+        [TestMethod]
+        public void SortByNameTest()
+        {
+            //Arrange
+            CustomerRepository customerRepository = new CustomerRepository();
+            var customerList = customerRepository.Retrieve();
+            //Act 
+            var result = customerRepository.SortByName(customerList);
+            //Assert
+            Assert.IsNotNull(result);
+            Assert.AreEqual(2, result.First().CustomerId);
+            Assert.AreEqual("Baggins", result.First().LastName);
+            Assert.AreEqual("Bilbo", result.First().FirstName);
+        }
+
+
+        [TestMethod]
+        public void SortByNameInReverseTest()
+        {
+            //Arrange
+            CustomerRepository customerRepository = new CustomerRepository();
+            var customerList = customerRepository.Retrieve();
+            //Act 
+            var result = customerRepository.SortByNameInReverse(customerList);
+            //Assert
+            Assert.IsNotNull(result);
+            Assert.AreEqual(2, result.Last().CustomerId);
+            Assert.AreEqual("Baggins", result.Last().LastName);
+            Assert.AreEqual("Bilbo", result.Last().FirstName);
+        }
+
+        [TestMethod]
+        public void SortByTypeTest()
+        {
+            //Arrange
+            CustomerRepository customerRepository = new CustomerRepository();
+            var customerList = customerRepository.Retrieve();
+            //Act 
+            var result = customerRepository.SortByType(customerList);
+            //Assert
+            Assert.IsNotNull(result);
+            Assert.AreEqual(null, result.Last().CustomerTypeId);
+        }
     }
 }
