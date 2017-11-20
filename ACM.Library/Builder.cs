@@ -34,7 +34,7 @@ namespace ACM.Library
             var seq2 = Enumerable.Range(0, 10)
                 .Select(i => i * i);
 
-            return seq1.Intersect(seq2);
+            return seq1.Union(seq2);
         }
     }
 }
