@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACM.Library", "ACM.Library\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACM.LibraryTests", "ACM.LibraryTests\ACM.LibraryTests.csproj", "{547A7700-C833-45F1-B891-12A758F9BA34}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACM.WPF", "ACM.WPF\ACM.WPF.csproj", "{C8311F22-E916-498B-941C-0C6193BEEE19}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +37,10 @@ Global
 		{547A7700-C833-45F1-B891-12A758F9BA34}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{547A7700-C833-45F1-B891-12A758F9BA34}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{547A7700-C833-45F1-B891-12A758F9BA34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8311F22-E916-498B-941C-0C6193BEEE19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8311F22-E916-498B-941C-0C6193BEEE19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8311F22-E916-498B-941C-0C6193BEEE19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8311F22-E916-498B-941C-0C6193BEEE19}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
