@@ -54,6 +54,19 @@ namespace ACM.BL
             return query;
         }
 
+
+        public dynamic GetNamesAndId(List<Customer> customersList)
+        {
+            var query = customersList.OrderBy(c => c.LastName)
+                .ThenBy(c => c.FirstName)
+                .Select(c => new
+                {
+                    Name = c.LastName + ", " + c.FirstName,
+                    c.CustomerId
+                });
+            return query;
+        }
+
         public dynamic GetNamesAndType(List<Customer> customerList,
                                         List<CustomerType> customerTypeList)
         {
@@ -63,12 +76,12 @@ namespace ACM.BL
                 (c, ct) => new
                 {
                     Name = c.LastName + ", " + c.FirstName,
-                    CustomerType = ct.TypeName
+                    CustomerTypeName = ct.TypeName
                 });
 
             foreach (var item in query)
             {
-                Console.WriteLine(item.Name + " : " + item.CustomerType);
+                Console.WriteLine(item.Name + " : " + item.CustomerTypeName);
             }
 
             return query;

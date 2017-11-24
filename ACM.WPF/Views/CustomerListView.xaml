@@ -51,13 +51,13 @@
                             <ColumnDefinition Width="100"/>
                             <ColumnDefinition Width="*"/>
                         </Grid.ColumnDefinitions>
-                        <TextBlock Grid.Column="0"
-                                   Text="{Binding LastName}"
-                                   Style="{StaticResource NormalTextStyle}"/>
-                        <TextBlock Grid.Column="1"
-                                   Text="{Binding CustomerTypeId}"
-                                   HorizontalAlignment="Center"
-                                   Style="{StaticResource NormalTextStyle}"/>
+                        <TextBox Grid.Column="0"
+                                   Text="{Binding Name}"
+                                  Margin="5"/>
+                        <TextBox Grid.Column="1"
+                                   Text="{Binding CustomerTypeName}"
+                                   HorizontalAlignment="Stretch"
+                                   Margin="5"/>
                         
                     </Grid>
                 </DataTemplate>
