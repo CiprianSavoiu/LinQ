@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\#Courses\Pluralsight\c#\04LINQ\MyWork\LinQ\ACM.WPF\App.xaml
-22073819863
+3861881808
 
 13329180406
 14344231042
-MainWindow.xaml;Views\CustomerListView.xaml;
+Assets\StyleLibrary.xaml;MainWindow.xaml;Views\CustomerListView.xaml;
 
-False
+True
 

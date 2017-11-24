@@ -29,19 +29,41 @@
             <TextBlock
                 Grid.Column="0"
                 Text="Name"
+                Style="{StaticResource ColumnHeaderTextStyle}"
                 HorizontalAlignment="Left"
-                Foreground="Orange">
-                
-            </TextBlock>
+                />
             <TextBlock
                 Grid.Column="1"
                 Text="Type"
                 HorizontalAlignment="Left"
-                Foreground="Orange">
-                
-
-            </TextBlock>
+                Style="{StaticResource ColumnHeaderTextStyle}"/>
 
         </Grid>
+        
+        <ItemsControl
+            Grid.Row="1"
+            ItemsSource="{Binding Customers}">
+            <ItemsControl.ItemTemplate>
+                <DataTemplate>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="200"/>
+                            <ColumnDefinition Width="100"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Grid.Column="0"
+                                   Text="{Binding LastName}"
+                                   Style="{StaticResource NormalTextStyle}"/>
+                        <TextBlock Grid.Column="1"
+                                   Text="{Binding CustomerTypeId}"
+                                   HorizontalAlignment="Center"
+                                   Style="{StaticResource NormalTextStyle}"/>
+                        
+                    </Grid>
+                </DataTemplate>
+            </ItemsControl.ItemTemplate>
+            
+        </ItemsControl>
+        
     </Grid>
 </Page>

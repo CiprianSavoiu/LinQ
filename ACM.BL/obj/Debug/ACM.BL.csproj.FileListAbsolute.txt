@@ -1,5 +1,5 @@
 C:\#Courses\Pluralsight\c#\04LINQ\MyWork\LinQ\ACM.BL\bin\Debug\ACM.BL.dll
 C:\#Courses\Pluralsight\c#\04LINQ\MyWork\LinQ\ACM.BL\bin\Debug\ACM.BL.pdb
-C:\#Courses\Pluralsight\c#\04LINQ\MyWork\LinQ\ACM.BL\obj\Debug\ACM.BL.csprojResolveAssemblyReference.cache
 C:\#Courses\Pluralsight\c#\04LINQ\MyWork\LinQ\ACM.BL\obj\Debug\ACM.BL.dll
 C:\#Courses\Pluralsight\c#\04LINQ\MyWork\LinQ\ACM.BL\obj\Debug\ACM.BL.pdb
+C:\#Courses\Pluralsight\c#\04LINQ\MyWork\LinQ\ACM.BL\obj\Debug\ACM.BL.csprojResolveAssemblyReference.cache
