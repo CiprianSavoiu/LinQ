@@ -19,3 +19,7 @@ C:\#Courses\Pluralsight\c#\04LINQ\MyWork\LinQ\ACM.WPF\bin\Debug\ACM.WPF.exe
 C:\#Courses\Pluralsight\c#\04LINQ\MyWork\LinQ\ACM.WPF\bin\Debug\ACM.WPF.pdb
 C:\#Courses\Pluralsight\c#\04LINQ\MyWork\LinQ\ACM.WPF\bin\Debug\ACM.BL.dll
 C:\#Courses\Pluralsight\c#\04LINQ\MyWork\LinQ\ACM.WPF\bin\Debug\ACM.BL.pdb
+C:\#Courses\Pluralsight\c#\04LINQ\MyWork\LinQ\ACM.WPF\bin\Debug\System.Windows.Controls.DataVisualization.Toolkit.dll
+C:\#Courses\Pluralsight\c#\04LINQ\MyWork\LinQ\ACM.WPF\bin\Debug\System.Windows.Controls.Input.Toolkit.dll
+C:\#Courses\Pluralsight\c#\04LINQ\MyWork\LinQ\ACM.WPF\bin\Debug\System.Windows.Controls.Layout.Toolkit.dll
+C:\#Courses\Pluralsight\c#\04LINQ\MyWork\LinQ\ACM.WPF\bin\Debug\WPFToolkit.dll

@@ -26,6 +26,25 @@ namespace ACM.WPF.ViewModels
             }
         }
 
+
+        private List<KeyValuePair<string, decimal>> _ChartData;
+
+        public List<KeyValuePair<string, decimal>> ChartData
+        {
+            get { return _ChartData; }
+
+            set
+            {
+                if (_ChartData != value)
+                {
+                    _ChartData = value;
+                    NotifyPropertyChanged();
+                }
+            }
+        }
+
+
+
         CustomerRepository customerRepository = new CustomerRepository();
 
         public CustomerListViewModel()
@@ -58,6 +77,8 @@ namespace ACM.WPF.ViewModels
             {
                 _Customers.Add(customerInstance);
             }
+
+            ChartData = customerRepository.GetInvoiceTotalByCustomerType(customerList, customerTypeList).ToList();
         }
     }
 }

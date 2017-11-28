@@ -19,7 +19,7 @@ namespace ACM.BL.Tests
             //Arrange
             CustomerRepository customerRepository = new CustomerRepository();
             var customerList = customerRepository.Retrieve();
-            
+
             //Act
             var result = customerRepository.Find(customerList, 2);
             //Assert
@@ -38,7 +38,7 @@ namespace ACM.BL.Tests
 
             //Act 
             var result = customerRepository.Find(customerList, 42);
-            
+
             //Assert
             Assert.IsNull(result);
 
@@ -115,7 +115,7 @@ namespace ACM.BL.Tests
             //Act 
             var query = customerRepository.GetNamesAndEmail(customerList);
             //Analyze
-           
+
         }
 
 
@@ -130,8 +130,8 @@ namespace ACM.BL.Tests
             var customerTypeList = typerRepository.Retrieve();
             //Act 
             var query = customerRepository.GetNamesAndType(customerList, customerTypeList);
-            
-            
+
+
             //NOT REALLY A TEST
 
         }
@@ -157,6 +157,20 @@ namespace ACM.BL.Tests
 
         }
 
+        [TestMethod()]
+        public void GetInvoiceTotalByCustomerTypeTest()
+        {
+            //Arrange
+            var customerRepository = new CustomerRepository();
+            var customerList = customerRepository.Retrieve();
+            
+            var customerTypeRepository = new CustomerTypeRepository();
+            var customerTypeList = customerTypeRepository.Retrieve();
 
+            //Act
+            var query = customerRepository.GetInvoiceTotalByCustomerType(customerList, customerTypeList);
+
+            //NOT really a test
+        }
     }
 }
